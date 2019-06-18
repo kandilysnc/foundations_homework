@@ -1,0 +1,81 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12195137
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2000 on 2010 Geographies
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Race
+         Universe:  Total Population
+         Name:      T12
+         Variables:
+            T012_001:   Total Population:
+            T012_002:      White Alone
+            T012_003:      Black or African American Alone
+            T012_004:      American Indian and Alaska Native Alone
+            T012_005:      Asian Alone
+            T012_006:      Native Hawaiian and Other Pacific Islander Alone
+            T012_007:      Some Other Race Alone
+            T012_008:      Two or More Races
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      NATION:         Nation
+      STATE:          State
+      COUNTY:         County
+      CT:             Census Tract
+      T012_001:       Total Population
+      T012_002:       White Alone
+      T012_003:       Black or African American Alone
+      T012_004:       American Indian and Alaska Native Alone
+      T012_005:       Asian Alone
+      T012_006:       Native Hawaiian and Other Pacific Islander Alone
+      T012_007:       Some Other Race Alone
+      T012_008:       Two or More Races
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12195137
+
+If you have any questions contact info@socialexplorer.com

@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12195134
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 1980 on 2010 Geographies
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Race
+         Universe:  Total Population
+         Name:      T12
+         Variables:
+            T012_001:   Total Population:
+            T012_002:      White
+            T012_003:      Black
+            T012_004:      American Indian, Eskimo, and Aleut
+            T012_005:      Asian and Pacific Islander
+            T012_006:      Other
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      NATION:         Nation
+      STATE:          State
+      COUNTY:         County
+      CT:             Census Tract
+      T012_001:       Total Population
+      T012_002:       Total Population: White
+      T012_003:       Total Population: Black
+      T012_004:       Total Population: American Indian, Eskimo, and Aleut
+      T012_005:       Total Population: Asian and Pacific Islander
+      T012_006:       Total Population: Other
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12195134
+
+If you have any questions contact info@socialexplorer.com
