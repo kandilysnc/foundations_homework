@@ -1,0 +1,7 @@
+ssh -i ~/.ssh/foundations_key root@167.71.200.108
+
+
+
+scp -i ~/.ssh/foundations_key scraper.py root@167.71.200.108:~
+
+```scp -i ~/.ssh/foundations_key root@167.71.200.108:~/*311.csv .```
