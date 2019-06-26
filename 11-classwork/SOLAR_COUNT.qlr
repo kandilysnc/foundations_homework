@@ -1,0 +1,877 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+    <customproperties/>
+    <layer-tree-layer name="Count" checked="Qt::Checked" providerKey="memory" source="MultiPolygon?crs=EPSG:4269&amp;field=STATEFP:string(2)&amp;field=STATENS:string(8)&amp;field=AFFGEOID:string(11)&amp;field=GEOID:string(2)&amp;field=STUSPS:string(2)&amp;field=NAME:string(100)&amp;field=LSAD:string(2)&amp;field=ALAND:long(14)&amp;field=AWATER:long(14)&amp;field=powerplants_Plant_Code:integer&amp;field=powerplants_Plant_Name:string&amp;field=powerplants_Utility_Na:string&amp;field=powerplants_Utility_ID:integer&amp;field=powerplants_sector_nam:string&amp;field=powerplants_City:string&amp;field=powerplants_County:string&amp;field=powerplants_Zip:integer&amp;field=powerplants_Street_Add:string&amp;field=powerplants_PrimSource:string&amp;field=powerplants_Install_MW:double&amp;field=powerplants_Total_MW:double&amp;field=powerplants_Coal_MW:double&amp;field=powerplants_NG_MW:double&amp;field=powerplants_Crude_MW:double&amp;field=powerplants_Bio_MW:double&amp;field=powerplants_Hydro_MW:double&amp;field=powerplants_HydroPS_MW:double&amp;field=powerplants_Nuclear_MW:double&amp;field=powerplants_Solar_MW:double&amp;field=powerplants_Wind_MW:double&amp;field=powerplants_Geo_MW:double&amp;field=powerplants_Other_MW:double&amp;field=powerplants_source_des:string&amp;field=powerplants_tech_desc:string&amp;field=powerplants_Source:string&amp;field=powerplants_Period:integer&amp;field=powerplants_Latitude:double&amp;field=powerplants_Longitude:double&amp;field=solar_points:long&amp;uid={675e16f9-dfe2-429f-8c5a-f9d2a92a13d2}" expanded="1" id="output_63cd3ec5_91ce_41ad_a584_acf21a602f31">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyMaxScale="1" readOnly="0" refreshOnNotifyEnabled="0" minScale="1e+08" simplifyDrawingHints="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyAlgorithm="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" type="vector" geometry="Polygon" labelsEnabled="0" styleCategories="AllStyleCategories" simplifyLocal="1">
+      <extent>
+        <xmin>-179.17426499999999123</xmin>
+        <ymin>17.9137689999999985</ymin>
+        <xmax>179.77392199999999889</xmax>
+        <ymax>71.35256099999999435</ymax>
+      </extent>
+      <id>output_63cd3ec5_91ce_41ad_a584_acf21a602f31</id>
+      <datasource>memory?geometry=MultiPolygon&amp;crs=EPSG:4269&amp;field=STATEFP:string(2,0)&amp;field=STATENS:string(8,0)&amp;field=AFFGEOID:string(11,0)&amp;field=GEOID:string(2,0)&amp;field=STUSPS:string(2,0)&amp;field=NAME:string(100,0)&amp;field=LSAD:string(2,0)&amp;field=ALAND:int8(14,0)&amp;field=AWATER:int8(14,0)&amp;field=powerplants_Plant_Code:integer(-1,0)&amp;field=powerplants_Plant_Name:string(255,0)&amp;field=powerplants_Utility_Na:string(255,0)&amp;field=powerplants_Utility_ID:integer(-1,0)&amp;field=powerplants_sector_nam:string(255,0)&amp;field=powerplants_City:string(255,0)&amp;field=powerplants_County:string(255,0)&amp;field=powerplants_Zip:integer(-1,0)&amp;field=powerplants_Street_Add:string(255,0)&amp;field=powerplants_PrimSource:string(255,0)&amp;field=powerplants_Install_MW:double(20,5)&amp;field=powerplants_Total_MW:double(20,5)&amp;field=powerplants_Coal_MW:double(20,5)&amp;field=powerplants_NG_MW:double(20,5)&amp;field=powerplants_Crude_MW:double(20,5)&amp;field=powerplants_Bio_MW:double(20,5)&amp;field=powerplants_Hydro_MW:double(20,5)&amp;field=powerplants_HydroPS_MW:double(20,5)&amp;field=powerplants_Nuclear_MW:double(20,5)&amp;field=powerplants_Solar_MW:double(20,5)&amp;field=powerplants_Wind_MW:double(20,5)&amp;field=powerplants_Geo_MW:double(20,5)&amp;field=powerplants_Other_MW:double(20,5)&amp;field=powerplants_source_des:string(255,0)&amp;field=powerplants_tech_desc:string(255,0)&amp;field=powerplants_Source:string(255,0)&amp;field=powerplants_Period:integer(-1,0)&amp;field=powerplants_Latitude:double(20,5)&amp;field=powerplants_Longitude:double(20,5)&amp;field=solar_points:int8(-1,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Count</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" minz="0" maxz="0" dimensions="2" minx="0" maxx="0" maxy="0" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" forceraster="0" attr="powerplants_Solar_MW" graduatedMethod="GraduatedColor" type="graduatedSymbol" symbollevels="0">
+        <ranges>
+          <range lower="1.000000000000000" render="true" label=" 1.00 - 1.50 " upper="1.500000000000000" symbol="0"/>
+          <range lower="1.500000000000000" render="true" label=" 1.50 - 5.00 " upper="5.000000000000000" symbol="1"/>
+          <range lower="5.000000000000000" render="true" label=" 5.00 - 20.00 " upper="20.000000000000000" symbol="2"/>
+          <range lower="20.000000000000000" render="true" label=" 20.00 - 27.60 " upper="27.600000000000001" symbol="3"/>
+          <range lower="27.600000000000001" render="true" label=" 27.60 - 81.00 " upper="81.000000000000000" symbol="4"/>
+        </ranges>
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,178,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="1" clip_to_extent="1" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="254,204,92,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="2" clip_to_extent="1" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="253,141,60,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="3" clip_to_extent="1" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="240,59,32,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="4" clip_to_extent="1" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="189,0,38,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="225,89,137,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp name="[source]" type="gradient">
+          <prop v="255,255,178,255" k="color1"/>
+          <prop v="189,0,38,255" k="color2"/>
+          <prop v="0" k="discrete"/>
+          <prop v="gradient" k="rampType"/>
+          <prop v="0.25;254,204,92,255:0.5;253,141,60,255:0.75;240,59,32,255" k="stops"/>
+        </colorramp>
+        <mode name="jenks"/>
+        <symmetricMode enabled="false" symmetryPoint="1" astride="false"/>
+        <rotation/>
+        <sizescale/>
+        <labelformat format=" %1 - %2 " decimalplaces="2" trimtrailingzeroes="false"/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory barWidth="5" diagramOrientation="Up" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" backgroundColor="#ffffff" maxScaleDenominator="1e+08" width="15" sizeType="MM" height="15" minScaleDenominator="0" penColor="#000000" minimumSize="0" backgroundAlpha="255" scaleDependency="Area" opacity="1" enabled="0" sizeScale="3x:0,0,0,0,0,0" penAlpha="255" labelPlacementMethod="XHeight" rotationOffset="270" penWidth="0">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" dist="0" zIndex="0" linePlacementFlags="18" placement="1" obstacle="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="STATEFP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATENS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AFFGEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STUSPS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LSAD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALAND">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AWATER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Plant_Code">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Plant_Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Utility_Na">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Utility_ID">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_sector_nam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_City">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_County">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Zip">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Street_Add">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_PrimSource">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Install_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Total_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Coal_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_NG_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Crude_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Bio_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Hydro_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_HydroPS_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Nuclear_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Solar_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Wind_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Geo_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Other_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_source_des">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_tech_desc">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Source">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Period">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Latitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="powerplants_Longitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="solar_points">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="STATEFP" index="0"/>
+        <alias name="" field="STATENS" index="1"/>
+        <alias name="" field="AFFGEOID" index="2"/>
+        <alias name="" field="GEOID" index="3"/>
+        <alias name="" field="STUSPS" index="4"/>
+        <alias name="" field="NAME" index="5"/>
+        <alias name="" field="LSAD" index="6"/>
+        <alias name="" field="ALAND" index="7"/>
+        <alias name="" field="AWATER" index="8"/>
+        <alias name="" field="powerplants_Plant_Code" index="9"/>
+        <alias name="" field="powerplants_Plant_Name" index="10"/>
+        <alias name="" field="powerplants_Utility_Na" index="11"/>
+        <alias name="" field="powerplants_Utility_ID" index="12"/>
+        <alias name="" field="powerplants_sector_nam" index="13"/>
+        <alias name="" field="powerplants_City" index="14"/>
+        <alias name="" field="powerplants_County" index="15"/>
+        <alias name="" field="powerplants_Zip" index="16"/>
+        <alias name="" field="powerplants_Street_Add" index="17"/>
+        <alias name="" field="powerplants_PrimSource" index="18"/>
+        <alias name="" field="powerplants_Install_MW" index="19"/>
+        <alias name="" field="powerplants_Total_MW" index="20"/>
+        <alias name="" field="powerplants_Coal_MW" index="21"/>
+        <alias name="" field="powerplants_NG_MW" index="22"/>
+        <alias name="" field="powerplants_Crude_MW" index="23"/>
+        <alias name="" field="powerplants_Bio_MW" index="24"/>
+        <alias name="" field="powerplants_Hydro_MW" index="25"/>
+        <alias name="" field="powerplants_HydroPS_MW" index="26"/>
+        <alias name="" field="powerplants_Nuclear_MW" index="27"/>
+        <alias name="" field="powerplants_Solar_MW" index="28"/>
+        <alias name="" field="powerplants_Wind_MW" index="29"/>
+        <alias name="" field="powerplants_Geo_MW" index="30"/>
+        <alias name="" field="powerplants_Other_MW" index="31"/>
+        <alias name="" field="powerplants_source_des" index="32"/>
+        <alias name="" field="powerplants_tech_desc" index="33"/>
+        <alias name="" field="powerplants_Source" index="34"/>
+        <alias name="" field="powerplants_Period" index="35"/>
+        <alias name="" field="powerplants_Latitude" index="36"/>
+        <alias name="" field="powerplants_Longitude" index="37"/>
+        <alias name="" field="solar_points" index="38"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="STATEFP"/>
+        <default applyOnUpdate="0" expression="" field="STATENS"/>
+        <default applyOnUpdate="0" expression="" field="AFFGEOID"/>
+        <default applyOnUpdate="0" expression="" field="GEOID"/>
+        <default applyOnUpdate="0" expression="" field="STUSPS"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+        <default applyOnUpdate="0" expression="" field="LSAD"/>
+        <default applyOnUpdate="0" expression="" field="ALAND"/>
+        <default applyOnUpdate="0" expression="" field="AWATER"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Plant_Code"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Plant_Name"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Utility_Na"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Utility_ID"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_sector_nam"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_City"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_County"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Zip"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Street_Add"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_PrimSource"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Install_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Total_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Coal_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_NG_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Crude_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Bio_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Hydro_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_HydroPS_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Nuclear_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Solar_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Wind_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Geo_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Other_MW"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_source_des"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_tech_desc"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Source"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Period"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Latitude"/>
+        <default applyOnUpdate="0" expression="" field="powerplants_Longitude"/>
+        <default applyOnUpdate="0" expression="" field="solar_points"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STATEFP" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STATENS" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="AFFGEOID" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="GEOID" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STUSPS" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="NAME" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="LSAD" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="ALAND" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="AWATER" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Plant_Code" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Plant_Name" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Utility_Na" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Utility_ID" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_sector_nam" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_City" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_County" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Zip" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Street_Add" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_PrimSource" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Install_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Total_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Coal_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_NG_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Crude_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Bio_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Hydro_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_HydroPS_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Nuclear_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Solar_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Wind_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Geo_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Other_MW" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_source_des" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_tech_desc" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Source" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Period" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Latitude" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="powerplants_Longitude" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="solar_points" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="STATEFP"/>
+        <constraint desc="" exp="" field="STATENS"/>
+        <constraint desc="" exp="" field="AFFGEOID"/>
+        <constraint desc="" exp="" field="GEOID"/>
+        <constraint desc="" exp="" field="STUSPS"/>
+        <constraint desc="" exp="" field="NAME"/>
+        <constraint desc="" exp="" field="LSAD"/>
+        <constraint desc="" exp="" field="ALAND"/>
+        <constraint desc="" exp="" field="AWATER"/>
+        <constraint desc="" exp="" field="powerplants_Plant_Code"/>
+        <constraint desc="" exp="" field="powerplants_Plant_Name"/>
+        <constraint desc="" exp="" field="powerplants_Utility_Na"/>
+        <constraint desc="" exp="" field="powerplants_Utility_ID"/>
+        <constraint desc="" exp="" field="powerplants_sector_nam"/>
+        <constraint desc="" exp="" field="powerplants_City"/>
+        <constraint desc="" exp="" field="powerplants_County"/>
+        <constraint desc="" exp="" field="powerplants_Zip"/>
+        <constraint desc="" exp="" field="powerplants_Street_Add"/>
+        <constraint desc="" exp="" field="powerplants_PrimSource"/>
+        <constraint desc="" exp="" field="powerplants_Install_MW"/>
+        <constraint desc="" exp="" field="powerplants_Total_MW"/>
+        <constraint desc="" exp="" field="powerplants_Coal_MW"/>
+        <constraint desc="" exp="" field="powerplants_NG_MW"/>
+        <constraint desc="" exp="" field="powerplants_Crude_MW"/>
+        <constraint desc="" exp="" field="powerplants_Bio_MW"/>
+        <constraint desc="" exp="" field="powerplants_Hydro_MW"/>
+        <constraint desc="" exp="" field="powerplants_HydroPS_MW"/>
+        <constraint desc="" exp="" field="powerplants_Nuclear_MW"/>
+        <constraint desc="" exp="" field="powerplants_Solar_MW"/>
+        <constraint desc="" exp="" field="powerplants_Wind_MW"/>
+        <constraint desc="" exp="" field="powerplants_Geo_MW"/>
+        <constraint desc="" exp="" field="powerplants_Other_MW"/>
+        <constraint desc="" exp="" field="powerplants_source_des"/>
+        <constraint desc="" exp="" field="powerplants_tech_desc"/>
+        <constraint desc="" exp="" field="powerplants_Source"/>
+        <constraint desc="" exp="" field="powerplants_Period"/>
+        <constraint desc="" exp="" field="powerplants_Latitude"/>
+        <constraint desc="" exp="" field="powerplants_Longitude"/>
+        <constraint desc="" exp="" field="solar_points"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="STATEFP" width="-1" hidden="0" type="field"/>
+          <column name="STATENS" width="-1" hidden="0" type="field"/>
+          <column name="AFFGEOID" width="-1" hidden="0" type="field"/>
+          <column name="GEOID" width="-1" hidden="0" type="field"/>
+          <column name="STUSPS" width="-1" hidden="0" type="field"/>
+          <column name="NAME" width="-1" hidden="0" type="field"/>
+          <column name="LSAD" width="-1" hidden="0" type="field"/>
+          <column name="ALAND" width="-1" hidden="0" type="field"/>
+          <column name="AWATER" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Plant_Code" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Plant_Name" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Utility_Na" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Utility_ID" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_sector_nam" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_City" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_County" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Zip" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Street_Add" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_PrimSource" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Install_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Total_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Coal_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_NG_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Crude_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Bio_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Hydro_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_HydroPS_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Nuclear_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Solar_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Wind_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Geo_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Other_MW" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_source_des" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_tech_desc" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Source" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Period" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Latitude" width="-1" hidden="0" type="field"/>
+          <column name="powerplants_Longitude" width="-1" hidden="0" type="field"/>
+          <column name="solar_points" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="AFFGEOID" editable="1"/>
+        <field name="ALAND" editable="1"/>
+        <field name="AWATER" editable="1"/>
+        <field name="GEOID" editable="1"/>
+        <field name="LSAD" editable="1"/>
+        <field name="NAME" editable="1"/>
+        <field name="STATEFP" editable="1"/>
+        <field name="STATENS" editable="1"/>
+        <field name="STUSPS" editable="1"/>
+        <field name="powerplants_Bio_MW" editable="1"/>
+        <field name="powerplants_City" editable="1"/>
+        <field name="powerplants_Coal_MW" editable="1"/>
+        <field name="powerplants_County" editable="1"/>
+        <field name="powerplants_Crude_MW" editable="1"/>
+        <field name="powerplants_Geo_MW" editable="1"/>
+        <field name="powerplants_HydroPS_MW" editable="1"/>
+        <field name="powerplants_Hydro_MW" editable="1"/>
+        <field name="powerplants_Install_MW" editable="1"/>
+        <field name="powerplants_Latitude" editable="1"/>
+        <field name="powerplants_Longitude" editable="1"/>
+        <field name="powerplants_NG_MW" editable="1"/>
+        <field name="powerplants_Nuclear_MW" editable="1"/>
+        <field name="powerplants_Other_MW" editable="1"/>
+        <field name="powerplants_Period" editable="1"/>
+        <field name="powerplants_Plant_Code" editable="1"/>
+        <field name="powerplants_Plant_Name" editable="1"/>
+        <field name="powerplants_PrimSource" editable="1"/>
+        <field name="powerplants_Solar_MW" editable="1"/>
+        <field name="powerplants_Source" editable="1"/>
+        <field name="powerplants_Street_Add" editable="1"/>
+        <field name="powerplants_Total_MW" editable="1"/>
+        <field name="powerplants_Utility_ID" editable="1"/>
+        <field name="powerplants_Utility_Na" editable="1"/>
+        <field name="powerplants_Wind_MW" editable="1"/>
+        <field name="powerplants_Zip" editable="1"/>
+        <field name="powerplants_sector_nam" editable="1"/>
+        <field name="powerplants_source_des" editable="1"/>
+        <field name="powerplants_tech_desc" editable="1"/>
+        <field name="solar_points" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="AFFGEOID" labelOnTop="0"/>
+        <field name="ALAND" labelOnTop="0"/>
+        <field name="AWATER" labelOnTop="0"/>
+        <field name="GEOID" labelOnTop="0"/>
+        <field name="LSAD" labelOnTop="0"/>
+        <field name="NAME" labelOnTop="0"/>
+        <field name="STATEFP" labelOnTop="0"/>
+        <field name="STATENS" labelOnTop="0"/>
+        <field name="STUSPS" labelOnTop="0"/>
+        <field name="powerplants_Bio_MW" labelOnTop="0"/>
+        <field name="powerplants_City" labelOnTop="0"/>
+        <field name="powerplants_Coal_MW" labelOnTop="0"/>
+        <field name="powerplants_County" labelOnTop="0"/>
+        <field name="powerplants_Crude_MW" labelOnTop="0"/>
+        <field name="powerplants_Geo_MW" labelOnTop="0"/>
+        <field name="powerplants_HydroPS_MW" labelOnTop="0"/>
+        <field name="powerplants_Hydro_MW" labelOnTop="0"/>
+        <field name="powerplants_Install_MW" labelOnTop="0"/>
+        <field name="powerplants_Latitude" labelOnTop="0"/>
+        <field name="powerplants_Longitude" labelOnTop="0"/>
+        <field name="powerplants_NG_MW" labelOnTop="0"/>
+        <field name="powerplants_Nuclear_MW" labelOnTop="0"/>
+        <field name="powerplants_Other_MW" labelOnTop="0"/>
+        <field name="powerplants_Period" labelOnTop="0"/>
+        <field name="powerplants_Plant_Code" labelOnTop="0"/>
+        <field name="powerplants_Plant_Name" labelOnTop="0"/>
+        <field name="powerplants_PrimSource" labelOnTop="0"/>
+        <field name="powerplants_Solar_MW" labelOnTop="0"/>
+        <field name="powerplants_Source" labelOnTop="0"/>
+        <field name="powerplants_Street_Add" labelOnTop="0"/>
+        <field name="powerplants_Total_MW" labelOnTop="0"/>
+        <field name="powerplants_Utility_ID" labelOnTop="0"/>
+        <field name="powerplants_Utility_Na" labelOnTop="0"/>
+        <field name="powerplants_Wind_MW" labelOnTop="0"/>
+        <field name="powerplants_Zip" labelOnTop="0"/>
+        <field name="powerplants_sector_nam" labelOnTop="0"/>
+        <field name="powerplants_source_des" labelOnTop="0"/>
+        <field name="powerplants_tech_desc" labelOnTop="0"/>
+        <field name="solar_points" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>AFFGEOID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

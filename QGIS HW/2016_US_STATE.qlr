@@ -1,0 +1,331 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" name="" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer id="cb_2016_us_state_20m_6c82b569_03ad_48e3_8110_1d6615156baa" expanded="1" name="cb_2016_us_state_20m" providerKey="ogr" checked="Qt::Checked" source="../classwork/cb_2016_us_state_20m/cb_2016_us_state_20m.shp">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer readOnly="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" minScale="1e+08" geometry="Polygon" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyAlgorithm="0" simplifyLocal="1" maxScale="0" type="vector" simplifyMaxScale="1">
+      <extent>
+        <xmin>-179.17426499999999123</xmin>
+        <ymin>17.9137689999999985</ymin>
+        <xmax>179.77392199999999889</xmax>
+        <ymax>71.35256099999999435</ymax>
+      </extent>
+      <id>cb_2016_us_state_20m_6c82b569_03ad_48e3_8110_1d6615156baa</id>
+      <datasource>../classwork/cb_2016_us_state_20m/cb_2016_us_state_20m.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cb_2016_us_state_20m</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxy="0" maxz="0" minz="0" miny="0" minx="0" maxx="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" alpha="0.402" clip_to_extent="1" type="fill">
+            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="150,150,150,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="247,247,247,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"AFFGEOID"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeType="MM" height="15" width="15" maxScaleDenominator="1e+08" penColor="#000000" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" enabled="0" diagramOrientation="Up" opacity="1" penWidth="0" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" minScaleDenominator="0" sizeType="MM" minimumSize="0" labelPlacementMethod="XHeight" penAlpha="255" barWidth="5" scaleDependency="Area">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" linePlacementFlags="18" zIndex="0" dist="0" priority="0" placement="1" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="STATEFP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATENS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AFFGEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STUSPS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LSAD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALAND">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AWATER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="STATEFP"/>
+        <alias name="" index="1" field="STATENS"/>
+        <alias name="" index="2" field="AFFGEOID"/>
+        <alias name="" index="3" field="GEOID"/>
+        <alias name="" index="4" field="STUSPS"/>
+        <alias name="" index="5" field="NAME"/>
+        <alias name="" index="6" field="LSAD"/>
+        <alias name="" index="7" field="ALAND"/>
+        <alias name="" index="8" field="AWATER"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="STATEFP"/>
+        <default applyOnUpdate="0" expression="" field="STATENS"/>
+        <default applyOnUpdate="0" expression="" field="AFFGEOID"/>
+        <default applyOnUpdate="0" expression="" field="GEOID"/>
+        <default applyOnUpdate="0" expression="" field="STUSPS"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+        <default applyOnUpdate="0" expression="" field="LSAD"/>
+        <default applyOnUpdate="0" expression="" field="ALAND"/>
+        <default applyOnUpdate="0" expression="" field="AWATER"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="STATEFP" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="STATENS" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="AFFGEOID" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="GEOID" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="STUSPS" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="NAME" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="LSAD" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="ALAND" exp_strength="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" field="AWATER" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="STATEFP"/>
+        <constraint exp="" desc="" field="STATENS"/>
+        <constraint exp="" desc="" field="AFFGEOID"/>
+        <constraint exp="" desc="" field="GEOID"/>
+        <constraint exp="" desc="" field="STUSPS"/>
+        <constraint exp="" desc="" field="NAME"/>
+        <constraint exp="" desc="" field="LSAD"/>
+        <constraint exp="" desc="" field="ALAND"/>
+        <constraint exp="" desc="" field="AWATER"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="STATEFP" width="-1" hidden="0" type="field"/>
+          <column name="STATENS" width="-1" hidden="0" type="field"/>
+          <column name="AFFGEOID" width="-1" hidden="0" type="field"/>
+          <column name="GEOID" width="-1" hidden="0" type="field"/>
+          <column name="STUSPS" width="-1" hidden="0" type="field"/>
+          <column name="NAME" width="-1" hidden="0" type="field"/>
+          <column name="LSAD" width="-1" hidden="0" type="field"/>
+          <column name="ALAND" width="-1" hidden="0" type="field"/>
+          <column name="AWATER" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="AFFGEOID"/>
+        <field editable="1" name="ALAND"/>
+        <field editable="1" name="AWATER"/>
+        <field editable="1" name="GEOID"/>
+        <field editable="1" name="LSAD"/>
+        <field editable="1" name="NAME"/>
+        <field editable="1" name="STATEFP"/>
+        <field editable="1" name="STATENS"/>
+        <field editable="1" name="STUSPS"/>
+      </editable>
+      <labelOnTop>
+        <field name="AFFGEOID" labelOnTop="0"/>
+        <field name="ALAND" labelOnTop="0"/>
+        <field name="AWATER" labelOnTop="0"/>
+        <field name="GEOID" labelOnTop="0"/>
+        <field name="LSAD" labelOnTop="0"/>
+        <field name="NAME" labelOnTop="0"/>
+        <field name="STATEFP" labelOnTop="0"/>
+        <field name="STATENS" labelOnTop="0"/>
+        <field name="STUSPS" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>AFFGEOID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
